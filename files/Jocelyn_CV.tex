@@ -1,0 +1,412 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot,
+    top=2 cm,
+    bottom=2 cm,
+    left=2 cm,
+    right=2 cm,
+    footskip=1.0 cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Yiting Wang CV},
+    pdfauthor={Yiting Wang},
+    pdfcreator={LaTeX},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+% Ensure PDF is machine-readable / ATS parsable
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% General settings
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0 cm + 0.00001 cm}{0 cm + 0.00001 cm}
+}{
+    \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 6.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.35}
+}{
+    \par\kern\topsep
+}
+
+\let\hrefWithoutArrow\href
+
+\begin{document}
+
+\newcommand{\AND}{\unskip
+    \cleaders\copy\ANDbox\hskip\wd\ANDbox
+    \ignorespaces
+}
+\newsavebox\ANDbox
+\sbox\ANDbox{$|$}
+
+\begin{header}
+    \fontsize{24pt}{24pt}\selectfont \textbf{Yiting Wang (Jocelyn)}
+
+    \vspace{5pt}
+
+    \normalsize
+    \mbox{Zurich, Switzerland}%
+    \kern 5pt%
+    \AND%
+    \kern 5pt%
+    \mbox{\hrefWithoutArrow{mailto:yitiwang@ethz.ch}{yitiwang@ethz.ch}}%
+    \kern 5pt%
+    \AND%
+    \kern 5pt%
+    \mbox{\hrefWithoutArrow{https://scholar.google.com/citations?hl=en&user=xbQjJgYAAAAJ&view_op=list_works&sortby=pubdate}{Google Scholar}}%
+    \kern 5pt%
+    \AND%
+    \kern 5pt%
+    \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/jocelyn-wang-465b03164/?originalSubdomain=uk}{LinkedIn}}%
+\end{header}
+
+\vspace{0.2cm}
+
+\section{Research Interests}
+
+\begin{onecolentry}
+3D scene reconstruction, generative AI for autonomous driving and robotics, controllable image and video synthesis, adverse-weather perception, multimodal scene understanding, and trustworthy AI for safety-critical vision systems.
+\end{onecolentry}
+
+\section{Education}
+
+\begin{twocolentry}{Jun 2022 -- Jun 2026}
+    \textbf{University of Warwick}, PhD in Engineering
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{Intelligent Vehicle Sensors Group. Thesis topic: Multi-modal Sensor Perception in Autonomous Driving}
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{Supervisors: Prof.\ Valentina Donzella, Prof.\ Kurt Debattista, and Prof.\ Mehrdad Dianati}
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{Fully funded by the CDT in Future Mobility Technologies}
+\end{onecolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{Oct 2020 -- Oct 2021}
+    \textbf{University of Warwick}, MSc in Smart, Connected and Autonomous Vehicles
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{With Distinction; WMG Outstanding Student Scholarship}
+\end{onecolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{Sep 2015 -- Jun 2019}
+    \textbf{Nanjing University of Information Science and Technology}, BSc in Safety Engineering
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{China National Scholarship (Top 0.2\%)}
+\end{onecolentry}
+
+\section{Research Experience}
+
+\begin{twocolentry}{Jan 2026 -- Jun 2026}
+    \textbf{ETH Zurich, Department of Civil, Environmental and Geomatic Engineering (D-BAUG)}, Visiting Researcher
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{Advisors: Prof.\ Konrad Schindler and Dr.\ Christos Sakaridis}
+\end{onecolentry}
+\begin{onecolentry}
+    \href{https://prs.igp.ethz.ch/}{\textit{Photogrammetry and Remote Sensing Group}}
+\end{onecolentry}
+\begin{onecolentry}
+    \begin{highlights}
+        \item \textbf{SwissAI Small Project proposal (under review):} \textit{FoggyFields: Physically Consistent RGB--LiDAR Neural Fields for Foggy Weather}. \textit{Project lead}, in collaboration with researchers at ETH Zurich and the University of Warwick.
+        \item \textbf{Current research topic:} 3D scene reconstruction in adverse weather.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{Dec 2021 -- Jun 2022}
+    \textbf{Hong Kong University of Science and Technology}, Research Assistant \textit{Advisor: Prof.\ Lin Wang}
+\end{twocolentry}
+
+\begin{onecolentry}
+    \textit{Visual Learning and Intelligent System Lab, Artificial Intelligence Thrust}
+\end{onecolentry}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Developed a deep-learning-based low-light image enhancement method, resulting in a publication in \textit{IEEE Transactions on Artificial Intelligence}.
+        \item Assisted with teaching for the module \textit{Computer Vision and Pattern Recognition}.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{Oct 2020 -- Oct 2021}
+    \textbf{ON Semiconductor}, Industry-Collaborative Master's Project
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{Project: Video Compression for Automotive Cameras}
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{Co-supervised by engineers at ON Semiconductor and academic supervisors at WMG, University of Warwick}
+\end{onecolentry}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Developed a video compression algorithm for automotive cameras, resulting in a publication in \textit{IEEE Transactions on Intelligent Vehicles}.
+    \end{highlights}
+\end{onecolentry}
+
+\section{Selected Publications}
+
+\begin{onecolentry}
+    \href{https://scholar.google.com/citations?hl=en&user=xbQjJgYAAAAJ&view_op=list_works}{\textbf{Google Scholar: H-index 9, 260+ citations}}
+\end{onecolentry}
+
+\vspace{0.15cm}
+
+\begin{onecolentry}
+    \textbf{[1] Semantic-Aware Video Compression for Automotive Cameras}
+\end{onecolentry}
+\begin{onecolentry}
+    \textbf{Wang, Y.}, Chan, P. H., and Donzella, V.
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{IEEE Transactions on Intelligent Vehicles}, 2023.
+\end{onecolentry}
+
+\vspace{0.18cm}
+
+\begin{onecolentry}
+    \textbf{[2] The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving}
+\end{onecolentry}
+\begin{onecolentry}
+    \textbf{Wang, Y.}, Zhao, H., Debattista, K., and Donzella, V.
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)}, 2023. Oral presentation.
+\end{onecolentry}
+
+\vspace{0.18cm}
+
+\begin{onecolentry}
+    \textbf{[3] Robustness of Panoptic Segmentation for Degraded Automotive Camera Data}
+\end{onecolentry}
+\begin{onecolentry}
+    \textbf{Wang, Y.}, Zhao, H., Gummadi, D., Dianati, M., Debattista, K., and Donzella, V.
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{IEEE Transactions on Automation Science and Engineering}, 2025. To be presented at \textit{ICRA 2026} (oral).
+\end{onecolentry}
+
+\vspace{0.18cm}
+
+\begin{onecolentry}
+    \textbf{[4] A Survey and New Perspective of Sensing in the Dark for Intelligent Transportation Systems}
+\end{onecolentry}
+\begin{onecolentry}
+    \textbf{Wang, Y.}, Li, B., Wei, Z., Rahman, A., Gummadi, D., Zhao, H., and Donzella, V.
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{IEEE Transactions on Intelligent Transportation Systems}, 2025.
+\end{onecolentry}
+
+\vspace{0.18cm}
+
+\begin{onecolentry}
+    \textbf{[5] ClassLIE: Structure- and Illumination-Adaptive Classification for Low-Light Image Enhancement}
+\end{onecolentry}
+\begin{onecolentry}
+    Wei, Z.* , \textbf{Wang, Y.*}, Sun, L., Vasilakos, A. V., and Wang, L. \textit{(*co-first authors)}
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{IEEE Transactions on Artificial Intelligence}, 2024.
+\end{onecolentry}
+
+\vspace{0.18cm}
+
+\begin{onecolentry}
+    \textbf{[6] Exploring Generative AI for Sim2Real in Driving Data Synthesis}
+\end{onecolentry}
+\begin{onecolentry}
+    Zhao, H.* , \textbf{Wang, Y.*}, Bashford-Rogers, T., Donzella, V., and Debattista, K. \textit{(*co-first authors)}
+\end{onecolentry}
+\begin{onecolentry}
+    \textit{IEEE Intelligent Vehicles Symposium (IV)}, 2024.
+\end{onecolentry}
+
+\section{Manuscripts Under Review}
+
+\begin{onecolentry}
+    \textbf{[7] AURORA-KITTI: Any-Weather Depth Completion and Denoising in the Wild}
+\end{onecolentry}
+\begin{onecolentry}
+    \textbf{Wang, Y.}, Br\"odermann, T., Haghighi, H., Zhao, H., Sakaridis, C., Debattista, K., and Donzella, V.
+\end{onecolentry}
+\begin{onecolentry}
+    Under review at \textit{Information Fusion}.
+\end{onecolentry}
+
+\vspace{0.18cm}
+
+\begin{onecolentry}
+    \textbf{[8] DriveCtrl: Conditioned Sim-to-Real Driving Video Generation}
+\end{onecolentry}
+\begin{onecolentry}
+    Zhao, H.* , \textbf{Wang, Y.}, Bashford-Rogers, T., Donzella, V., and Debattista, K.
+\end{onecolentry}
+\begin{onecolentry}
+    Submitted to \textit{ACM Multimedia 2026}.
+\end{onecolentry}
+
+\section{Academic Service and Leadership}
+
+\begin{twocolentry}{2026}
+    \textbf{CVPRW URVIS Workshop}, URVIS 2026 Challenge Organiser
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{Co-led the organisation of the URVIS 2026 challenge; first-authored the associated challenge report accepted to the CVPRW 2026 proceedings.}
+\end{onecolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{2025}
+    \textbf{IEEE ICVES 2025}, Student Activities Chair
+\end{twocolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{2023 -- 2024}
+    \textbf{AAAI}, Program Committee Member
+\end{twocolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{2023 -- Present}
+    \textbf{Reviewer for journals and conferences}
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{IEEE Transactions on Intelligent Vehicles, IEEE Transactions on Intelligent Transportation Systems, IEEE Internet of Things Journal, ITSC, and IV}
+\end{onecolentry}
+
+\section{Teaching Experience}
+
+\begin{twocolentry}{2023 -- 2025}
+    \textbf{University of Warwick}, Senior Graduate Teaching Assistant
+\end{twocolentry}
+\begin{onecolentry}
+    \textit{Machine Intelligence and Data Science (MIDS)}
+\end{onecolentry}
+
+\section{Selected Talks and Professional Activities}
+
+\begin{twocolentry}{Aug 2024}
+    \textbf{Travel Grant}, IEEE ITSS R8 Chapters Meeting, Genoa, Italy
+\end{twocolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{Aug 2023}
+    \textbf{Invited Oral Presentation}, IEEE ITSC 2023, Bilbao, Spain
+\end{twocolentry}
+
+\section{Awards}
+
+\begin{twocolentry}{2022}
+    \textbf{CDT Future Mobility Technologies PhD Full Scholarship}, UK
+\end{twocolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{2023}
+    \textbf{Third Place in Coding Marathon}, Porsche Engineering \& Nard\`o Technical Center, Italy
+\end{twocolentry}
+
+\vspace{0.12cm}
+
+\begin{twocolentry}{2018}
+    \textbf{Second Prize, Mathematical Contest in Modeling}, Team Leader
+\end{twocolentry}
+
+\section{Skills}
+
+\begin{onecolentry}
+    \textbf{Programming:} Python, C/C++, C\#
+\end{onecolentry}
+
+\vspace{0.10cm}
+
+\begin{onecolentry}
+    \textbf{Machine Learning and Vision:} PyTorch, Claude Code \textit{(boost my efficiency if use wisely)}
+\end{onecolentry}
+
+\vspace{0.10cm}
+
+\begin{onecolentry}
+    \textbf{Tools:} Git, LaTeX, Markdown
+\end{onecolentry}
+
+\end{document}
