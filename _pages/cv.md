@@ -19,8 +19,6 @@ Education
   - Fully funded by the CDT in Future Mobility Technologies
 - **M.Sc. in Smart, Connected and Autonomous Vehicles**, University of Warwick, Oct 2020 &ndash; Oct 2021
   - *With Distinction; WMG Outstanding Student Scholarship*
-- **B.Sc. in Safety Engineering**, Nanjing University of Information Science and Technology, Sep 2015 &ndash; Jun 2019
-  - *China National Scholarship (Top 0.2%)*
 
 Research Experience
 ======
@@ -67,8 +65,6 @@ Awards
 - **CDT Future Mobility Technologies PhD Full Scholarship**, UK (2022)
 - **Third Place, Coding Marathon**, Porsche Engineering &amp; Nard&ograve; Technical Center, Italy (2023)
 - **WMG Outstanding Student Scholarship**, University of Warwick (2020)
-- **China National Scholarship** (Top 0.2%) (2018)
-- **Second Prize, Mathematical Contest in Modeling** — Team Leader (2018)
 
 Skills
 ======

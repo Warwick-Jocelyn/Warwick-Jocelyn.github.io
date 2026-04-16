@@ -31,7 +31,6 @@ Education
 ======
 - **Ph.D. in Engineering**, University of Warwick, 2022 &ndash; 2026 (expected)
 - **M.Sc. in Smart, Connected and Autonomous Vehicles**, University of Warwick, 2020 &ndash; 2021 &nbsp; *(Distinction; WMG Outstanding Student Scholarship)*
-- **B.Sc. in Safety Engineering**, Nanjing University of Information Science and Technology, 2015 &ndash; 2019 &nbsp; *(China National Scholarship, Top 0.2%)*
 
 Contact
 ======
