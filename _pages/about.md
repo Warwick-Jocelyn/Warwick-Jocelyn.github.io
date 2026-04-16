@@ -1,22 +1,21 @@
 ---
 permalink: /
-title: "Hi, I'm Yiting (Jocelyn) Wang"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
+  - /aboutme/
 ---
 
-I am currently a Visiting Researcher at [ETH Zurich](https://prs.igp.ethz.ch/), Artificial Visual Intelligence group (AVI) from [Photogrammetry and Remote Sensing](https://prs.igp.ethz.ch/), hosted by Prof. Konrad Schindler and Dr. Christos Sakaridis, working on multi-modal 3D reconstruction and representation. I am a final-year PhD candidate in Engineering at the [University of Warwick](https://warwick.ac.uk/) (WMG, Intelligent Vehicle Sensors Group), advised by Prof. Valentina Donzella and Prof. Kurt Debattista, and fully funded by the [CDT in Future Mobility Technologies](https://warwick.ac.uk/fac/sci/wmg/education/cdt/fmt).
-
-My previous research areas mainly focus on: (1) **robust perception for autonomous driving** under adverse weather and lighting conditions, (2) **generative AI for driving data synthesis** (Sim2Real, controllable video generation), and (3) **multi-modal 3D scene understanding** (camera&ndash;LiDAR fusion, depth completion).
+I am currently a Visiting Researcher at [ETH Zurich](https://prs.igp.ethz.ch/), Artificial Visual Intelligence group (AVI) from [Photogrammetry and Remote Sensing](https://prs.igp.ethz.ch/), hosted by Prof. Konrad Schindler and Dr. Christos Sakaridis, working on multi-modal 3D reconstruction and representation. I am a final-year PhD candidate in WMG, the [University of Warwick](https://warwick.ac.uk/), advised by Prof. Valentina Donzella and Prof. Kurt Debattista, and fully funded by the [CDT in Future Mobility Technologies](https://warwick.ac.uk/fac/sci/wmg/education/cdt/fmt). My previous research areas mainly focus on: (1) **robust perception for autonomous driving** under adverse weather and lighting conditions, (2) **generative AI for driving data synthesis** (Sim2Real, controllable video generation), and (3) **multi-modal 3D scene understanding** (camera&ndash;LiDAR fusion, depth completion).
 
 Research Interests
 ======
-- 3D scene reconstruction (neural fields, Gaussian splatting, depth completion)
-- Generative AI for autonomous driving and robotics (Sim2Real, controllable video generation)
-- Adverse-weather perception (fog, low-light, rain)
-- Multi-modal scene understanding (camera &ndash; LiDAR fusion)
+- 3D scene reconstruction
+- Generative AI for autonomous driving and robotics
+- Adverse-weather perception
+- Multi-modal scene understanding
 - Trustworthy AI for safety-critical vision systems
 
 News
@@ -32,7 +31,3 @@ News
 - **2024** &nbsp; One paper accepted at **IEEE ITSC 2024**.
 - **2023** &nbsp; One paper accepted at *IEEE T-IV*.
 - **2023** &nbsp; One paper accepted at **IEEE ITSC 2023** (oral).
-
-Contact
-======
-Feel free to reach me at [yiting.wang.1@warwick.ac.uk](mailto:yiting.wang.1@warwick.ac.uk) or [yitiwang@ethz.ch](mailto:yitiwang@ethz.ch). See also my [Google Scholar](https://scholar.google.com/citations?hl=en&user=xbQjJgYAAAAJ&view_op=list_works&sortby=pubdate) and [LinkedIn](https://www.linkedin.com/in/jocelyn-wang-465b03164/).

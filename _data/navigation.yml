@@ -1,9 +1,6 @@
 # The order of the links in the header of the website.
 
 main:
-  - title: "About Me"
-    url: /aboutme/
-
   - title: "Publications"
     url: /publications/
 

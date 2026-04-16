@@ -7,7 +7,7 @@ author_profile: true
 
 ## Workshop Organisation
 
-- **CVPRW URVIS 2026 Challenge Organiser** (2026). Co-led the organisation of the [URVIS 2026 Challenge](https://sites.google.com/view/urvis2026); first-authored the associated challenge report accepted to the CVPRW 2026 proceedings.
+- **CVPRW URVIS 2026 Challenge Organiser** (2026). Co-led the organisation of the [URVIS 2026 Challenge](https://urvis-workshop.github.io/challenge-Muses.html); first-authored the associated challenge report accepted to the CVPRW 2026 proceedings.
 
 ## Conference Organisation
 
@@ -15,7 +15,7 @@ author_profile: true
 
 ## Program Committee
 
-- **Area Chair / Program Committee Member**, AAAI (2023 &ndash; 2024).
+- **Program Committee Member**, AAAI (2023 &ndash; 2024).
 
 ## Journal Reviewing
 

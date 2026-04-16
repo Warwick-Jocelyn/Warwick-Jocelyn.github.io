@@ -26,9 +26,6 @@ Research Experience
   - Advisors: Prof. Konrad Schindler and Dr. Christos Sakaridis
   - Project lead of the SwissAI Small Project proposal *FoggyFields: Physically Consistent RGB&ndash;LiDAR Neural Fields for Foggy Weather* (under review), in collaboration with ETH Zurich and the University of Warwick.
   - Current topic: 3D scene reconstruction in adverse weather.
-- **Research Assistant**, HKUST (Visual Learning and Intelligent System Lab), Dec 2021 &ndash; Jun 2022
-  - Advisor: Prof. Lin Wang.
-  - Developed a deep-learning-based low-light image enhancement method (published in *IEEE T-AI*).
 - **Industry-Collaborative Master's Project**, ON Semiconductor &times; WMG, Oct 2020 &ndash; Oct 2021
   - Project: *Video Compression for Automotive Cameras*.
   - Published in *IEEE T-IV*.
