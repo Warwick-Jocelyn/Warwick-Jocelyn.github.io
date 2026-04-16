@@ -10,14 +10,6 @@ redirect_from:
 
 I am currently a Visiting Researcher at [ETH Zurich](https://prs.igp.ethz.ch/), Artificial Visual Intelligence group (AVI) from [Photogrammetry and Remote Sensing](https://prs.igp.ethz.ch/), hosted by Prof. Konrad Schindler and Dr. Christos Sakaridis, working on multi-modal 3D reconstruction and representation. I am a final-year PhD candidate in WMG, the [University of Warwick](https://warwick.ac.uk/), advised by Prof. Valentina Donzella and Prof. Kurt Debattista, and fully funded by the [CDT in Future Mobility Technologies](https://warwick.ac.uk/fac/sci/wmg/education/cdt/fmt). My previous research areas mainly focus on: (1) **robust perception for autonomous driving** under adverse weather and lighting conditions, (2) **generative AI for driving data synthesis** (Sim2Real, controllable video generation), and (3) **multi-modal 3D scene understanding** (camera&ndash;LiDAR fusion, depth completion).
 
-Research Interests
-======
-- 3D scene reconstruction
-- Generative AI for autonomous driving and robotics
-- Adverse-weather perception
-- Multi-modal scene understanding
-- Trustworthy AI for safety-critical vision systems
-
 News
 ======
 - **2026-04** &nbsp; Co-organizing the [URVIS Workshop Challenge](https://sites.google.com/view/urvis2026) at **CVPR 2026**; first-authored challenge report accepted to CVPRW 2026.
@@ -31,3 +23,7 @@ News
 - **2024** &nbsp; One paper accepted at **IEEE ITSC 2024**.
 - **2023** &nbsp; One paper accepted at *IEEE T-IV*.
 - **2023** &nbsp; One paper accepted at **IEEE ITSC 2023** (oral).
+
+Teaching
+======
+- **Senior Graduate Teaching Assistant**, *Machine Intelligence and Data Science (MIDS)*, University of Warwick, 2023 &ndash; 2025
