@@ -35,7 +35,7 @@ Research Experience
 
 Publications
 ======
-See also my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=xbQjJgYAAAAJ&view_op=list_works&sortby=pubdate) (H-index 9, 260+ citations).
+See also my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=xbQjJgYAAAAJ&view_op=list_works&sortby=pubdate).
 
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}

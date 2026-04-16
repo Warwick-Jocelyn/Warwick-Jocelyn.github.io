@@ -1,14 +1,11 @@
 # The order of the links in the header of the website.
 
 main:
+  - title: "About Me"
+    url: /aboutme/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/
-
-  - title: "Teaching"
-    url: /teaching/
-
-  - title: "CV"
-    url: /cv/
+  - title: "Services"
+    url: /services/
