@@ -8,7 +8,7 @@ redirect_from:
   - /aboutme/
 ---
 
-I am currently a Visiting Researcher at [ETH Zurich](https://prs.igp.ethz.ch/), Artificial Visual Intelligence group (AVI) from [Photogrammetry and Remote Sensing](https://prs.igp.ethz.ch/), hosted by Prof. Konrad Schindler and Dr. Christos Sakaridis, working on multi-modal 3D reconstruction and representation. I am a final-year PhD candidate in WMG, the [University of Warwick](https://warwick.ac.uk/), advised by Prof. Valentina Donzella and Prof. Kurt Debattista, and fully funded by the [CDT in Future Mobility Technologies](https://warwick.ac.uk/fac/sci/wmg/education/cdt/fmt).
+I am currently a Visiting Researcher at [ETH Zurich](https://prs.igp.ethz.ch/), Artificial Visual Intelligence group (AVI) from [Photogrammetry and Remote Sensing](https://prs.igp.ethz.ch/), hosted by Prof. Konrad Schindler and Dr. Christos Sakaridis, working on multi-modal 3D reconstruction and representation. I am a final-year PhD candidate in WMG, the [University of Warwick](https://warwick.ac.uk/), advised by Prof. Valentina Donzella and Prof. Kurt Debattista, and fully funded by the [CDT in Future Mobility Technologies](https://www.ukri.org/opportunity/epsrc-centres-for-doctoral-training/).
 
 Research Interests
 ======
