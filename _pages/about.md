@@ -8,7 +8,11 @@ redirect_from:
   - /aboutme/
 ---
 
-I am currently a Visiting Researcher at [ETH Zurich](https://prs.igp.ethz.ch/), Artificial Visual Intelligence group (AVI) from [Photogrammetry and Remote Sensing](https://prs.igp.ethz.ch/), hosted by Prof. Konrad Schindler and Dr. Christos Sakaridis, working on multi-modal 3D reconstruction and representation. I am a final-year PhD candidate in WMG, the [University of Warwick](https://warwick.ac.uk/), advised by Prof. Valentina Donzella and Prof. Kurt Debattista, and fully funded by the [CDT in Future Mobility Technologies](https://warwick.ac.uk/fac/sci/wmg/education/cdt/fmt). My previous research areas mainly focus on: (1) **robust perception for autonomous driving** under adverse weather and lighting conditions, (2) **generative AI for driving data synthesis** (Sim2Real, controllable video generation), and (3) **multi-modal 3D scene understanding** (camera&ndash;LiDAR fusion, depth completion).
+I am currently a Visiting Researcher at [ETH Zurich](https://prs.igp.ethz.ch/), Artificial Visual Intelligence group (AVI) from [Photogrammetry and Remote Sensing](https://prs.igp.ethz.ch/), hosted by Prof. Konrad Schindler and Dr. Christos Sakaridis, working on multi-modal 3D reconstruction and representation. I am a final-year PhD candidate in WMG, the [University of Warwick](https://warwick.ac.uk/), advised by Prof. Valentina Donzella and Prof. Kurt Debattista, and fully funded by the [CDT in Future Mobility Technologies](https://warwick.ac.uk/fac/sci/wmg/education/cdt/fmt).
+
+Research Interests
+======
+My research interests focus on generative and multimodal AI for autonomous driving and robotics, with particular interest in controllable image and video synthesis, 3D scene reconstruction, adverse-weather perception, and trustworthy intelligent vision systems.
 
 News
 ======
