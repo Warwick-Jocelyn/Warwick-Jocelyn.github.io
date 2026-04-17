@@ -1,19 +1,51 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 <style>
+.pub-intro {
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 0 22px 0;
+  padding: 14px 16px;
+  background: #f7f9fb;
+  border-left: 3px solid #2980b9;
+  border-radius: 3px;
+}
+.pub-section-title {
+  margin-top: 28px;
+  margin-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #222;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 4px;
+}
+.pub-scroll {
+  max-height: 560px;
+  overflow-y: auto;
+  padding: 6px 14px 6px 4px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: #fff;
+}
+.pub-scroll::-webkit-scrollbar { width: 8px; }
+.pub-scroll::-webkit-scrollbar-thumb { background: #c7d2dc; border-radius: 4px; }
+.pub-scroll::-webkit-scrollbar-thumb:hover { background: #97a8b6; }
 .pub-entry {
   display: flex;
-  margin-bottom: 28px;
-  padding-bottom: 22px;
+  margin-bottom: 22px;
+  padding-bottom: 18px;
   border-bottom: 1px solid #eee;
 }
 .pub-entry:last-child {
   border-bottom: none;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
 }
 .pub-thumb {
   flex: 0 0 220px;
@@ -67,16 +99,12 @@ author_profile: true
 }
 </style>
 
-<h2>Research Interests</h2>
-<ul>
-  <li>3D scene reconstruction</li>
-  <li>Generative AI for autonomous driving and robotics</li>
-  <li>Adverse-weather perception</li>
-  <li>Multi-modal scene understanding</li>
-  <li>Trustworthy AI for safety-critical vision systems</li>
-</ul>
+<p class="pub-intro">
+My previous research areas mainly focus on: (1) <b>robust perception for autonomous driving</b> under adverse weather and lighting conditions, (2) <b>generative AI for driving data synthesis</b> (Sim2Real, controllable video generation), and (3) <b>multi-modal 3D scene understanding</b> (camera&ndash;LiDAR fusion, depth completion).
+</p>
 
-<h2>Preprints / Under Review</h2><hr />
+<div class="pub-section-title">Preprints / Under Review</div>
+<div class="pub-scroll">
 
 <div class="pub-entry">
   <div class="pub-thumb">
@@ -86,14 +114,17 @@ author_profile: true
     <h3>AURORA-KITTI: Any-Weather Depth Completion and Denoising in the Wild</h3>
     <div class="pub-authors"><b>Y. Wang</b>, T. Br&ouml;dermann, H. Haghighi, H. Zhao, C. Sakaridis, K. Debattista, V. Donzella</div>
     <div class="pub-venue"><em>Under review</em>, 2026</div>
-    <div class="pub-desc">A framework for any-weather depth completion and denoising, with a new large-scale adverse-weather benchmark built upon KITTI.</div>
+    <div class="pub-desc">The first large-scale <b>any-weather</b> benchmark built upon KITTI, paired with a unified model that <b>jointly</b> denoises sparse LiDAR and completes dense depth across rain, snow, fog, and night.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2603.14701">[arXiv]</a>
     </div>
   </div>
 </div>
 
-<h2>Journal Articles</h2><hr />
+</div>
+
+<div class="pub-section-title">Journal Articles</div>
+<div class="pub-scroll">
 
 <div class="pub-entry">
   <div class="pub-thumb">
@@ -103,7 +134,7 @@ author_profile: true
     <h3>Rethinking Probabilistic Learning for Counterfactual Low-Light Image Enhancement in Robust Engineering Vision Systems</h3>
     <div class="pub-authors">Z. Wei, <b>Y. Wang</b>, K. Debattista, V. Donzella</div>
     <div class="pub-venue"><em>Knowledge-Based Systems</em>, 2026</div>
-    <div class="pub-desc">A probabilistic learning approach for counterfactual low-light image enhancement tailored to robust engineering vision.</div>
+    <div class="pub-desc">Reframes low-light enhancement as a <b>counterfactual probabilistic learning</b> problem &mdash; modelling what a scene <i>would</i> look like under normal lighting &mdash; to better support downstream perception in engineering vision systems.</div>
   </div>
 </div>
 
@@ -115,7 +146,7 @@ author_profile: true
     <h3>A Unified Generative Framework for Realistic LiDAR Simulation in Autonomous Driving Systems</h3>
     <div class="pub-authors">H. Haghighi, <b>Y. Wang</b>, M. Dianati, K. Debattista, V. Donzella</div>
     <div class="pub-venue"><em>IEEE Sensors Journal</em>, 2025</div>
-    <div class="pub-desc">A unified generative framework for realistic LiDAR point cloud simulation in autonomous driving scenarios.</div>
+    <div class="pub-desc">A <b>single generative framework</b> that replaces per-effect simulation pipelines, producing realistic LiDAR point clouds that match real sensor statistics across diverse driving conditions.</div>
   </div>
 </div>
 
@@ -127,19 +158,7 @@ author_profile: true
     <h3>A Survey and New Perspective of Sensing in the Dark for Intelligent Transportation Systems</h3>
     <div class="pub-authors"><b>Y. Wang</b>, B. Li, Z. Wei, A. Rahman, D. Gummadi, H. Zhao, V. Donzella</div>
     <div class="pub-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025</div>
-    <div class="pub-desc">A comprehensive survey of sensing techniques in dark/low-light conditions for intelligent transportation systems.</div>
-  </div>
-</div>
-
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="/images/pubs/robustness_panoptic.png" onerror="this.src='/images/500x300.png'" alt="Robustness Panoptic" />
-  </div>
-  <div class="pub-info">
-    <h3>Robustness of Panoptic Segmentation for Degraded Automotive Camera Data</h3>
-    <div class="pub-authors"><b>Y. Wang</b>, H. Zhao, D. Gummadi, M. Dianati, K. Debattista, V. Donzella</div>
-    <div class="pub-venue"><em>IEEE Transactions on Automation Science and Engineering</em>, 2025 &nbsp; | &nbsp; To be presented at <b>ICRA 2026</b> (oral)</div>
-    <div class="pub-desc">Investigates robustness of panoptic segmentation against degradations in automotive camera data.</div>
+    <div class="pub-desc">The <b>first unified survey</b> of camera, LiDAR, radar, and thermal sensing for nighttime intelligent transportation, with a new taxonomy and a roadmap of open challenges.</div>
   </div>
 </div>
 
@@ -151,7 +170,7 @@ author_profile: true
     <h3>ClassLIE: Structure- and Illumination-Adaptive Classification for Low-Light Image Enhancement</h3>
     <div class="pub-authors">Z. Wei*, <b>Y. Wang*</b>, L. Sun, A.V. Vasilakos, L. Wang &nbsp; (*co-first authors)</div>
     <div class="pub-venue"><em>IEEE Transactions on Artificial Intelligence</em>, 2024</div>
-    <div class="pub-desc">A deep-learning method that classifies structure- and illumination-adaptive priors for low-light enhancement.</div>
+    <div class="pub-desc">First classifies each low-light image by its structural and illumination priors, then routes it to an <b>adaptive enhancement branch</b> &mdash; a single model that handles diverse degradation types without manual tuning.</div>
   </div>
 </div>
 
@@ -163,11 +182,26 @@ author_profile: true
     <h3>Semantic-Aware Video Compression for Automotive Cameras</h3>
     <div class="pub-authors"><b>Y. Wang</b>, P.H. Chan, V. Donzella</div>
     <div class="pub-venue"><em>IEEE Transactions on Intelligent Vehicles</em>, 2023</div>
-    <div class="pub-desc">A semantic-aware video compression algorithm tailored to automotive cameras, developed in collaboration with ON Semiconductor.</div>
+    <div class="pub-desc">Allocates bitrate by per-pixel <b>semantic importance</b> so safety-critical regions (pedestrians, signs) stay sharp at low bitrates. Industry collaboration with <b>ON Semiconductor</b>.</div>
   </div>
 </div>
 
-<h2>Conference Papers</h2><hr />
+</div>
+
+<div class="pub-section-title">Conference Papers</div>
+<div class="pub-scroll">
+
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="/images/pubs/robustness_panoptic.png" onerror="this.src='/images/500x300.png'" alt="Robustness Panoptic" />
+  </div>
+  <div class="pub-info">
+    <h3>Robustness of Panoptic Segmentation for Degraded Automotive Camera Data</h3>
+    <div class="pub-authors"><b>Y. Wang</b>, H. Zhao, D. Gummadi, M. Dianati, K. Debattista, V. Donzella</div>
+    <div class="pub-venue"><b>ICRA</b>, 2026 (oral) &nbsp; | &nbsp; also in <em>IEEE Transactions on Automation Science and Engineering</em>, 2025</div>
+    <div class="pub-desc">The <b>first systematic benchmark</b> of panoptic segmentation under realistic automotive camera degradations (noise, blur, compression, weather), with a training recipe that recovers most of the accuracy loss.</div>
+  </div>
+</div>
 
 <div class="pub-entry">
   <div class="pub-thumb">
@@ -177,7 +211,7 @@ author_profile: true
     <h3>Darwick: A Paired Dataset in Low-Light Driving Scenarios for Advanced Perceptual Enhancement and Benchmarking Assessment</h3>
     <div class="pub-authors">Z. Wei, Y. Jiang, P.H. Chan, <b>Y. Wang</b>, Y. Poledna, V. Donzella</div>
     <div class="pub-venue"><b>IEEE ITSC</b>, 2024</div>
-    <div class="pub-desc">A paired low-light driving dataset for benchmarking perceptual enhancement methods.</div>
+    <div class="pub-desc">A <b>paired day&ndash;night</b> driving dataset captured on matching routes &mdash; enabling supervised low-light enhancement and benchmarking where synthetic pairs fall short.</div>
   </div>
 </div>
 
@@ -189,7 +223,7 @@ author_profile: true
     <h3>Exploring Generative AI for Sim2Real in Driving Data Synthesis</h3>
     <div class="pub-authors">H. Zhao*, <b>Y. Wang*</b>, T. Bashford-Rogers, V. Donzella, K. Debattista &nbsp; (*co-first authors)</div>
     <div class="pub-venue"><b>IEEE IV</b>, 2024</div>
-    <div class="pub-desc">Investigates generative AI approaches to bridge the Sim2Real gap for driving data synthesis.</div>
+    <div class="pub-desc">Shows how modern <b>generative AI</b> (GANs and diffusion) can translate simulated driving scenes into photorealistic data while preserving task-relevant structure &mdash; narrowing the Sim2Real perception gap.</div>
   </div>
 </div>
 
@@ -201,6 +235,8 @@ author_profile: true
     <h3>The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving</h3>
     <div class="pub-authors"><b>Y. Wang</b>, H. Zhao, K. Debattista, V. Donzella</div>
     <div class="pub-venue"><b>IEEE ITSC</b>, 2023 &nbsp; (oral)</div>
-    <div class="pub-desc">Studies how camera degradation factors affect panoptic segmentation performance for automated driving.</div>
+    <div class="pub-desc"><b>Decouples and quantifies</b> how individual camera degradation factors (noise, blur, compression) each impact panoptic segmentation &mdash; motivating degradation-aware training.</div>
   </div>
+</div>
+
 </div>

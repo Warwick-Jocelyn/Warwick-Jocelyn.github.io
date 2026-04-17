@@ -1,7 +1,7 @@
 # The order of the links in the header of the website.
 
 main:
-  - title: "Publications"
+  - title: "Selected Publications"
     url: /publications/
 
   - title: "Services"

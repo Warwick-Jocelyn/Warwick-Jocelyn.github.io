@@ -1,7 +1,7 @@
 ---
 title: "Robustness of Panoptic Segmentation for Degraded Automotive Camera Data"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2025-robustness-panoptic
 excerpt: 'Investigates robustness of panoptic segmentation against degradations in automotive camera data. To be presented at ICRA 2026 (oral).'
 date: 2025-06-01

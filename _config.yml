@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yiting (Jocelyn) Wang"
-  pronouns         : "she/her"
-  bio              : "PhD candidate, University of Warwick &middot; Visiting Researcher, ETH Zurich. Working on multi-modal perception and 3D scene reconstruction for autonomous driving."
+  pronouns         :
+  bio              : "PhD candidate, University of Warwick &middot; Visiting Researcher, ETH Zurich."
   location         : "Zurich, Switzerland"
   employer         : "University of Warwick / ETH Zurich"
   uri              : # URL
