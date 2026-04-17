@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yiting (Jocelyn) Wang"
+title                    : "Yiting Wang (Jocelyn)"
 title_separator          : "-"
-name                     : &name "Yiting (Jocelyn) Wang"
-description              : &description "Academic homepage of Yiting (Jocelyn) Wang — PhD candidate in Engineering, University of Warwick; Visiting Researcher at ETH Zurich."
+name                     : &name "Yiting Wang (Jocelyn)"
+description              : &description "Academic homepage of Yiting Wang (Jocelyn) — PhD candidate in Engineering, University of Warwick; Visiting Researcher at ETH Zurich."
 url                      : https://warwick-jocelyn.github.io
 baseurl                  : ""
 repository               : "Warwick-Jocelyn/Warwick-Jocelyn.github.io"
@@ -23,7 +23,7 @@ repository               : "Warwick-Jocelyn/Warwick-Jocelyn.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yiting (Jocelyn) Wang"
+  name             : "Yiting Wang (Jocelyn)<br>王怡婷"
   pronouns         :
   bio              : "PhD candidate, University of Warwick &middot; Visiting Researcher, ETH Zurich."
   location         : "Zurich, Switzerland"
