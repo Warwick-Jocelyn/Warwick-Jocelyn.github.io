@@ -4,6 +4,31 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+<style>
+.author__urls-wrapper .author__urls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  justify-content: flex-start;
+}
+.author__urls-wrapper .author__urls li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.author__urls-wrapper .author__urls li a {
+  font-size: 1.6em;
+  color: #444;
+  text-decoration: none;
+}
+.author__urls-wrapper .author__urls li a:hover { color: #2980b9; }
+.author__urls-wrapper .author__urls li .icon-pad-right { margin-right: 0; }
+</style>
+
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
@@ -35,10 +60,8 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email (Warwick)</a></li>
-      {% endif %}
-      {% if author.email_personal %}
-        <li><a href="mailto:{{ author.email_personal }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email (Personal)</a></li>
+        {% assign mailto = author.email %}{% if author.email_personal %}{% assign mailto = mailto | append: ',' | append: author.email_personal %}{% endif %}
+        <li><a href="mailto:{{ mailto }}" title="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -49,7 +72,7 @@
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}      
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
+        <li><a href="{{ author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar ai-fw"></i></a></li>
       {% endif %}
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
@@ -131,8 +154,8 @@
         <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
-      {% endif %}      
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+      {% endif %}
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
       {% endif %}
