@@ -322,3 +322,43 @@
     }
   }
 }
+
+/* ---- Custom override: render contact links as a single horizontal icon row ---- */
+.author__urls-wrapper > button { display: none !important; }
+
+.author__urls-wrapper .author__urls {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0 !important;
+  margin: 10px 0 0 0 !important;
+  position: static !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  justify-content: flex-start;
+
+  &::before, &::after { display: none !important; content: none !important; }
+
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    white-space: nowrap;
+
+    a {
+      display: inline-block;
+      font-size: 1.6em;
+      color: #444;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+
+      &:hover { color: #2980b9; text-decoration: none; }
+    }
+
+    .icon-pad-right { margin-right: 0; }
+  }
+}
