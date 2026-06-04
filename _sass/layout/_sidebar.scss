@@ -328,11 +328,14 @@
 
 .author__urls-wrapper .author__urls {
   display: flex !important;
-  flex-wrap: wrap;
-  gap: 16px;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center;
+  gap: 18px;
+  width: auto !important;
   list-style: none;
   padding: 0 !important;
-  margin: 10px 0 0 0 !important;
+  margin: 12px 0 0 0 !important;
   position: static !important;
   border: 0 !important;
   background: transparent !important;
@@ -342,23 +345,26 @@
   &::before, &::after { display: none !important; content: none !important; }
 
   li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    border: none;
+    display: inline-flex !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
     white-space: nowrap;
 
     a {
-      display: inline-block;
-      font-size: 1.6em;
-      color: #444;
-      text-decoration: none;
-      margin: 0;
-      padding: 0;
+      display: inline-block !important;
+      font-size: 1.4em !important;
+      line-height: 1 !important;
+      color: #444 !important;
+      text-decoration: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
 
-      &:hover { color: #2980b9; text-decoration: none; }
+      &:hover { color: #2980b9 !important; text-decoration: none !important; }
     }
 
-    .icon-pad-right { margin-right: 0; }
+    .icon-pad-right { margin-right: 0 !important; }
   }
 }
