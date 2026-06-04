@@ -16,7 +16,10 @@ My research interests focus on generative and multimodal AI for autonomous drivi
 
 News
 ======
-- **2026-04** &nbsp; Co-organizing the [URVIS Workshop Challenge](https://sites.google.com/view/urvis2026) at **CVPR 2026**; first-authored challenge report accepted to CVPRW 2026.
+- **2026-06-04** &nbsp; Gave an invited technical report talk at **CVPRW 2026 (URVIS Workshop)**, Denver, USA.
+- **2026-06-03** &nbsp; Presented one paper at **ICRA 2026**, Vienna, Austria.
+- **2026-05** &nbsp; URVIS Challenge [technical paper](https://openaccess.thecvf.com/content/CVPR2026W/URVIS/papers/Wang_Adverse-to-the-eXtreme_Panoptic_Segmentation_URVIS_2026_Study_and_Benchmark_CVPRW_2026_paper.pdf) accepted at **CVPRW 2026**.
+- **2026-04** &nbsp; Co-organizing the [URVIS Workshop Challenge](https://sites.google.com/view/urvis2026) at **CVPR 2026**.
 - **2026-01** &nbsp; Started as a **Visiting Researcher at ETH Zurich** (PRS group), working on 3D scene reconstruction in adverse weather.
 - **2025** &nbsp; One paper accepted at *IEEE T-ASE*; to be presented at **ICRA 2026**.
 - **2025** &nbsp; Survey paper accepted at *IEEE T-ITS*.
