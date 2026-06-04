@@ -26,8 +26,8 @@ author:
   name             : "Yiting Wang (Jocelyn)<br>王怡婷"
   pronouns         :
   bio              : "PhD candidate, University of Warwick &middot; Visiting Researcher, ETH Zurich."
-  location         : "Zurich, Switzerland"
-  employer         : "University of Warwick / ETH Zurich"
+  location         :
+  employer         :
   uri              : # URL
   email            : "yiting.wang.1@warwick.ac.uk"
 
