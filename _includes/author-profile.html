@@ -5,27 +5,44 @@
 {% endif %}
 
 <style>
+/* Hide the mobile "Follow" popup-toggle button — we always show the icon row */
+.author__urls-wrapper > button { display: none !important; }
+
+/* Force the icon list to a simple horizontal row at every screen width,
+   overriding the template's default mobile popup styling */
 .author__urls-wrapper .author__urls {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   gap: 16px;
   list-style: none;
-  padding: 0;
-  margin: 10px 0 0 0;
+  padding: 0 !important;
+  margin: 10px 0 0 0 !important;
+  position: static !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
   justify-content: flex-start;
 }
+/* Kill the popup-arrow pseudo-elements the template draws for mobile */
+.author__urls-wrapper .author__urls::before,
+.author__urls-wrapper .author__urls::after { display: none !important; content: none !important; }
+
 .author__urls-wrapper .author__urls li {
   display: inline-block;
   margin: 0;
   padding: 0;
   border: none;
+  white-space: nowrap;
 }
 .author__urls-wrapper .author__urls li a {
+  display: inline-block;
   font-size: 1.6em;
   color: #444;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
-.author__urls-wrapper .author__urls li a:hover { color: #2980b9; }
+.author__urls-wrapper .author__urls li a:hover { color: #2980b9; text-decoration: none; }
 .author__urls-wrapper .author__urls li .icon-pad-right { margin-right: 0; }
 </style>
 
